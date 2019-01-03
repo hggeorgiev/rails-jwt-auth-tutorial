@@ -38,7 +38,7 @@ rails s
 ```
 rails console
 
-User.create(:email => 'example@mail.com', :password => '123', :password_confirmation => '123')
+User.create(:email => 'example@mail.com', :password => '123123123', :password_confirmation => '123123123')
 ```
 
 * Open another Terminal.app tab and use cURL to perform a JWT HTTP POST request to back-end
