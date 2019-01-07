@@ -44,5 +44,5 @@ User.create(:email => 'example@mail.com', :password => '123123123', :password_co
 * Open another Terminal.app tab and use cURL to perform a JWT HTTP POST request to back-end
 
 ```
-curl -H "Content-Type: application/json" -X POST -d '{"email":"example@mail.com","password":"123"}' http://localhost:3000/authenticate
+curl -H "Content-Type: application/json" -X POST -d '{"email":"example@mail.com","password":"123123123"}' http://localhost:3000/authenticate
 ```
